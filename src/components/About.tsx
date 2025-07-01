@@ -1,6 +1,7 @@
+// About.tsx
 export default function About() {
     return (
-        <section id="about" className="py-16 px-6 bg-gray-50">
+        <section id="about" className="py-20 px-6 bg-gray-50 scroll-mt-24">
             <div className="max-w-4xl mx-auto">
                 <h3 className="text-2xl font-bold mb-4">About Me</h3>
                 <p className="text-gray-700 leading-relaxed">
