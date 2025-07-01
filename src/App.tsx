@@ -1,56 +1,104 @@
 // App.tsx
-import { useRef, useState, useEffect } from "react";
-import Navbar from "./components/Navbar";
+import { useEffect, useState } from 'react';
+import About from './components/About';
+import Projects from './components/Projects';
+import Experience from './components/Experience';
+import Contact from './components/Contact';
 import Home from "./components/Home";
-import About from "./components/About";
-import Projects from "./components/Projects";
-import Experience from "./components/Experience";
-import Contact from "./components/Contact";
 
 export default function App() {
-    const sectionRefs = {
-        home: useRef<HTMLElement | null>(null),
-        about: useRef<HTMLElement | null>(null),
-        projects: useRef<HTMLElement | null>(null),
-        experience: useRef<HTMLElement | null>(null),
-        contact: useRef<HTMLElement | null>(null),
-    };
-
-    const [activeSection, setActiveSection] = useState("home");
+    const [activeSection, setActiveSection] = useState('');
 
     useEffect(() => {
-        const observer = new IntersectionObserver(
-            entries => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        setActiveSection(entry.target.id);
-                    }
-                });
-            },
-            {
-                root: null,
-                rootMargin: "-45% 0px -50% 0px",
-                threshold: 0.1,
+        const handleScroll = () => {
+            const sections = document.querySelectorAll("section[id]");
+            let closestSectionId = '';
+            let minDistance = Number.POSITIVE_INFINITY;
+
+            sections.forEach((section) => {
+                const rect = section.getBoundingClientRect();
+                const distance = Math.abs(rect.top - 120); // Adjust 120 to match your sticky header + offset
+
+                if (distance < minDistance) {
+                    minDistance = distance;
+                    closestSectionId = section.id;
+                }
+            });
+
+            if (closestSectionId && closestSectionId !== activeSection) {
+                setActiveSection(closestSectionId);
             }
-        );
+        };
 
-        Object.values(sectionRefs).forEach(ref => {
-            if (ref.current) observer.observe(ref.current);
-        });
+        window.addEventListener('scroll', handleScroll);
+        handleScroll();
 
-        return () => observer.disconnect();
-    }, []);
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, [activeSection]);
+
 
     return (
-        <>
-            <Navbar activeSection={activeSection} />
-            <main>
-                <Home ref={sectionRefs.home} />
-                <About ref={sectionRefs.about} />
-                <Projects ref={sectionRefs.projects} />
-                <Experience ref={sectionRefs.experience} />
-                <Contact ref={sectionRefs.contact} />
-            </main>
-        </>
+        <main className="sticky top-0 z-10 bg-white shadow-md">
+            {/* Header */}
+            <header className="p-6 shadow-md sticky top-0 bg-white z-10">
+                <div className="max-w-5xl mx-auto flex justify-between items-center">
+                    <h1 className="text-xl font-bold">Jada Thibodeaux</h1>
+                    <nav className="space-x-4">
+                        <a
+                            href="#home"
+                            className={`hover:text-blue-600 ${
+                                activeSection === 'home' ? 'text-blue-600 font-semibold' : ''
+                            }`}
+                        >
+                            Home
+                        </a>
+                        <a
+                            href="#about"
+                            className={`hover:text-blue-600 ${
+                                activeSection === 'about' ? 'text-blue-600 font-semibold' : ''
+                            }`}
+                        >
+                            About
+                        </a>
+                        <a
+                            href="#projects"
+                            className={`hover:text-blue-600 ${
+                                activeSection === 'projects' ? 'text-blue-600 font-semibold' : ''
+                            }`}
+                        >
+                            Projects
+                        </a>
+                        <a
+                            href="#experience"
+                            className={`hover:text-blue-600 ${
+                                activeSection === 'experience' ? 'text-blue-600 font-semibold' : ''
+                            }`}
+                        >
+                            Experience
+                        </a>
+                        <a
+                            href="#contact"
+                            className={`hover:text-blue-600 ${
+                                activeSection === 'contact' ? 'text-blue-600 font-semibold' : ''
+                            }`}
+                        >
+                            Contact
+                        </a>
+                    </nav>
+                </div>
+            </header>
+
+            {/* Sections */}
+
+            <Home />
+            <About />
+            <Projects />
+            <Experience />
+            <Contact />
+
+            <footer className="py-6 text-center text-gray-500 text-sm mt-20">
+                © {new Date().getFullYear()} Jada Thibodeaux. All rights reserved.
+            </footer>
+        </main>
     );
 }
