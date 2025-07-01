@@ -1,9 +1,10 @@
+// Experience.tsx
 export default function Experience() {
     return (
-        <section id="experience" className="py-16 px-6 bg-gray-50">
+        <section id="experience" className="py-20 px-6 bg-gray-50">
             <div className="max-w-4xl mx-auto">
                 <h3 className="text-2xl font-bold mb-4">Experience</h3>
-                <div className="space-y-4">
+                <div className="space-y-6">
                     <div>
                         <h4 className="text-lg font-semibold">QA Engineer – Contract</h4>
                         <p className="text-gray-700">Jan 2024 – Present</p>
