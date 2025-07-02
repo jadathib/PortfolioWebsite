@@ -6,7 +6,30 @@
 body {
     @apply bg-white text-gray-900;
     font-family: 'Inter', sans-serif;
+    body {
+        font-family: 'VT323', monospace;
+    }
+
 }
+
+   a::after {
+       content: '';
+       position: absolute;
+       bottom: -2px;
+       left: 0;
+       height: 2px;
+       width: 100%;
+       background-color: #2563eb;
+       transform: scaleX(0);
+       transform-origin: left;
+       transition: transform 0.3s ease;
+   }
+
+    a:hover::after {
+        transform: scaleX(1);
+}
+
+
 
 /* Optional: Smooth scrolling */
 html {
