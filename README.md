@@ -88,5 +88,5 @@ This project is open-source and free to use. If you draw inspiration or reuse co
 🤝 Contact
 
 📧 jada.r.thibodeaux@gmail.com
-🔗 LinkedIn
-🐙 GitHub
+🔗 [LinkedIn](https://www.linkedin.com/in/jadathibodeaux)
+🐙 [GitHub](https://www.github.com/jadathib)
