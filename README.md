@@ -18,7 +18,6 @@ This is the personal portfolio website of **Jada R. Thibodeaux**, a software eng
 ---
 
 ## 📁 Folder Structure
-
 📁 portfolio/
 ├── 📁 public/
 │   ├── favicon.ico
@@ -45,7 +44,6 @@ This is the personal portfolio website of **Jada R. Thibodeaux**, a software eng
 ├── tsconfig.json
 ├── vite.config.ts
 └── README.md
-
 
 
 ---
