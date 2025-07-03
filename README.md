@@ -17,37 +17,6 @@ This is the personal portfolio website of **Jada R. Thibodeaux**, a software eng
 
 ---
 
-## 📁 Folder Structure
-📁 portfolio/ 
-├── 📁 public/ 
-│   ├── favicon.ico 
-│   ├── Jada_Thibodeaux_Software Engineer_Resume.pdf 
-│   └── 404.html 
-│ 
-├── 📁 src/ 
-│   ├── 📁 components/ 
-│   │   ├── About.tsx 
-│   │   ├── Contact.tsx 
-│   │   ├── Experience.tsx 
-│   │   ├── Home.tsx 
-│   │   ├── Projects.tsx 
-│   │   ├── ScrollToTop.tsx 
-│   │   └── [Any additional components] 
-│   │ 
-│   ├── App.tsx 
-│   └── main.tsx 
-│ 
-├── index.html 
-├── tailwind.config.js 
-├── postcss.config.js 
-├── package.json 
-├── tsconfig.json 
-├── vite.config.ts 
-└── README.md 
-
-
----
-
 ## 📸 Features
 
 - Sticky navigation bar with scroll tracking
