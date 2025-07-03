@@ -71,6 +71,12 @@ This is the personal portfolio website of **Jada R. Thibodeaux**, a software eng
 
 ```bash   
     npm install
+    npm install react react-dom react-router-dom lucide-react
+    npm install -D typescript @types/react @types/react-dom @types/react-router-dom
+    npm install -D vite @vitejs/plugin-react
+    npm install -D tailwindcss postcss autoprefixer
+    npm install --save-dev @types/react @types/react-dom
+    npm install -g yarn
 ```
 3. Start the development server:
 ```bash
