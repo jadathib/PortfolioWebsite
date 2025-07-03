@@ -57,8 +57,3 @@ This project is open-source and free to use. If you draw inspiration or reuse co
 📧 jada.r.thibodeaux@gmail.com
 🔗 LinkedIn
 🐙 GitHub
-
-
----
-
-Would you like me to generate a downloadable `.md` or `.docx` file version
