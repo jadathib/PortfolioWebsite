@@ -114,7 +114,7 @@ export default function Experience() {
                                     ))}
                                 </ul>
                             ) : null }
-                            {/* Tech badges
+                            {/* Tech badges */}
                             {item.tech?.length ? (
                                 <div className="flex flex-wrap gap-2 mb-4">
                             {item.tech.map((t) => (
@@ -126,7 +126,7 @@ export default function Experience() {
                         </span>
                     ))}
                 </div>
-                ) : null} */}
+                ) : null}
 
                 {/* Footer (Case Study link if available) */}
                 {item.caseStudySlug && (
