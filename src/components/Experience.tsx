@@ -113,12 +113,36 @@ export default function Experience() {
                                         </li>
                                     ))}
                                 </ul>
-                            ) : null
-                            }
-                        </article>
+                            ) : null }
+                            {/* Tech badges
+                            {item.tech?.length ? (
+                                <div className="flex flex-wrap gap-2 mb-4">
+                            {item.tech.map((t) => (
+                                <span
+                                key={t}
+                            className="inline-flex items-center rounded-full border px-3 py-1 text-xs"
+                        >
+                            {t}
+                        </span>
                     ))}
                 </div>
-            </div>
-        </section>
+                ) : null} */}
+
+                {/* Footer (Case Study link if available) */}
+                {item.caseStudySlug && (
+                <footer className="flex justify-end">
+                    <Link
+                        to={`/projects/${item.caseStudySlug}`}
+                        className="inline-flex items-center justify-center rounded-2xl border px-4 py-2 text-sm font-medium hover:shadow-md transition-shadow"
+                    >
+                        View Case Study →
+                    </Link>
+                </footer>
+                )}
+            </article>
+            ))}
+        </div>
+</div>
+</section>
     );
 }
