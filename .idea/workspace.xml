@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ec5ca20c-4f03-4932-9424-05f17c0e03d0" name="Changes" comment="revert" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;jadathib&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/jadathib/PortfolioWebsite",
+    "accountId": "58c31480-a788-409f-91d8-e8d83b201dab"
+  }
+}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2zLoo2oumuvKhaUFTcb9mXgfyBh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.completion",
+    "show.migrate.to.gradle.popup": "false",
+    "ts.external.directory.path": "/Applications/IntelliJ IDEA.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="PortfolioWebsite" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="PortfolioWebsite" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="PortfolioWebsite" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.FlaskServer">
+      <module name="PortfolioWebsite" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="PortfolioWebsite" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26574.91" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26574.91" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ec5ca20c-4f03-4932-9424-05f17c0e03d0" name="Changes" comment="" />
+      <created>1751519885845</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1751519885845</updated>
+      <workItem from="1751519886879" duration="3237000" />
+      <workItem from="1751523163176" duration="63000" />
+      <workItem from="1751523228904" duration="2702000" />
+      <workItem from="1751527242955" duration="16000" />
+      <workItem from="1755391737032" duration="5729000" />
+      <workItem from="1756598265710" duration="64000" />
+      <workItem from="1757245908899" duration="110000" />
+      <workItem from="1757246243950" duration="1320000" />
+      <workItem from="1757247599450" duration="612000" />
+      <workItem from="1757248263303" duration="782000" />
+      <workItem from="1758414507589" duration="112000" />
+      <workItem from="1758414628020" duration="108000" />
+      <workItem from="1758414750829" duration="202000" />
+      <workItem from="1758414975158" duration="182000" />
+    </task>
+    <task id="LOCAL-00001" summary="readme added">
+      <option name="closed" value="true" />
+      <created>1751520174413</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1751520174413</updated>
+    </task>
+    <task id="LOCAL-00002" summary="readme added">
+      <option name="closed" value="true" />
+      <created>1751523281873</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1751523281873</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Updated linkedin and github links">
+      <option name="closed" value="true" />
+      <created>1751523763824</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1751523763824</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added more dependencies to download, cuz its so much easier when you have all of the dependencies there">
+      <option name="closed" value="true" />
+      <created>1751524100972</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1751524100972</updated>
+    </task>
+    <task id="LOCAL-00005" summary="changed main.tsx">
+      <option name="closed" value="true" />
+      <created>1751525160576</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1751525160576</updated>
+    </task>
+    <task id="LOCAL-00006" summary="project faqs">
+      <option name="closed" value="true" />
+      <created>1751527212574</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1751527212574</updated>
+    </task>
+    <task id="LOCAL-00007" summary="main changed with react updated and root">
+      <option name="closed" value="true" />
+      <created>1755394809491</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1755394809491</updated>
+    </task>
+    <task id="LOCAL-00008" summary="react dependencies added properly">
+      <option name="closed" value="true" />
+      <created>1755394876872</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1755394876872</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added map for experience, then refactored the experience part with map formatting for header, summary, and bullets">
+      <option name="closed" value="true" />
+      <created>1755396446019</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1755396446019</updated>
+    </task>
+    <task id="LOCAL-00010" summary="unversioned">
+      <option name="closed" value="true" />
+      <created>1755396459912</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1755396459912</updated>
+    </task>
+    <task id="LOCAL-00011" summary="unversioned">
+      <option name="closed" value="true" />
+      <created>1755396462674</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1755396462674</updated>
+    </task>
+    <task id="LOCAL-00012" summary="unversioned">
+      <option name="closed" value="true" />
+      <created>1755396466191</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1755396466191</updated>
+    </task>
+    <task id="LOCAL-00013" summary="added tech badges section">
+      <option name="closed" value="true" />
+      <created>1755396753488</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1755396753488</updated>
+    </task>
+    <task id="LOCAL-00014" summary="added tech badges section">
+      <option name="closed" value="true" />
+      <created>1755396770103</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1755396770103</updated>
+    </task>
+    <task id="LOCAL-00015" summary="footer section">
+      <option name="closed" value="true" />
+      <created>1755396795138</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1755396795138</updated>
+    </task>
+    <task id="LOCAL-00016" summary="footer section uncommented out">
+      <option name="closed" value="true" />
+      <created>1755396808407</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1755396808407</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Use separate paragraphs (block elements) and wrap them in a block container with space-y-4. Removed br and span">
+      <option name="closed" value="true" />
+      <created>1757247235317</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1757247235317</updated>
+    </task>
+    <task id="LOCAL-00018" summary="revert changes">
+      <option name="closed" value="true" />
+      <created>1757247250486</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1757247250486</updated>
+    </task>
+    <task id="LOCAL-00019" summary="revert changes">
+      <option name="closed" value="true" />
+      <created>1757247253246</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1757247253246</updated>
+    </task>
+    <task id="LOCAL-00020" summary="revert changes">
+      <option name="closed" value="true" />
+      <created>1757247256062</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1757247256062</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="readme added" />
+    <MESSAGE value="Updated linkedin and github links" />
+    <MESSAGE value="Added more dependencies to download, cuz its so much easier when you have all of the dependencies there" />
+    <MESSAGE value="changed main.tsx" />
+    <MESSAGE value="project faqs" />
+    <MESSAGE value="main changed with react updated and root" />
+    <MESSAGE value="react dependencies added properly" />
+    <MESSAGE value="added map for experience, then refactored the experience part with map formatting for header, summary, and bullets" />
+    <MESSAGE value="unversioned" />
+    <MESSAGE value="added tech badges section" />
+    <MESSAGE value="footer section" />
+    <MESSAGE value="footer section uncommented out" />
+    <MESSAGE value="Use separate paragraphs (block elements) and wrap them in a block container with space-y-4. Removed br and span" />
+    <MESSAGE value="revert changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="revert changes" />
+  </component>
+</project>
