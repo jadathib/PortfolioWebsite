@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec5ca20c-4f03-4932-9424-05f17c0e03d0" name="Changes" comment="test commit">
+    <list default="true" id="ec5ca20c-4f03-4932-9424-05f17c0e03d0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -160,7 +160,7 @@
       <workItem from="1758414975158" duration="182000" />
       <workItem from="1758415171078" duration="821000" />
       <workItem from="1758416030805" duration="489000" />
-      <workItem from="1758416537481" duration="945000" />
+      <workItem from="1758416537481" duration="1885000" />
     </task>
     <task id="LOCAL-00001" summary="readme added">
       <option name="closed" value="true" />
@@ -354,7 +354,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758416588222</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="updated About">
+      <option name="closed" value="true" />
+      <created>1758418621249</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1758418621249</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -388,6 +396,7 @@
     <MESSAGE value="revert changes" />
     <MESSAGE value="done" />
     <MESSAGE value="test commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="test commit" />
+    <MESSAGE value="updated About" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated About" />
   </component>
 </project>
