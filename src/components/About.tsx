@@ -28,7 +28,7 @@ export default function About() {
                         camera in hand. I bring the same curiosity and creative spark to every project I join.
                     </p>
                     <p>
-                        Testing commit for staging, woadie.
+                        Testing commit for staging, woadie
                     </p>
                 </div>
             </div>
