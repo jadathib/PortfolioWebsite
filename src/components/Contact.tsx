@@ -45,7 +45,7 @@ export default function Contact() {
                         LinkedIn
                     </a>
                     <a
-                        href="/Users/jadathibodeaux/IdeaProjects/PortfolioWebsite/public/Jada_Thibodeaux_Software Engineer_Resume.pdf"
+                        href="public/Jada_Thibodeaux_Software Engineer_Resume.pdf"
                         target="_blank"
                         className="underline hover:text-[#b23e4f]"
                     >
