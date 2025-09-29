@@ -27,6 +27,9 @@ export default function About() {
                         Outside of tech, I love anime, music festivals, and wandering new cities with a
                         camera in hand. I bring the same curiosity and creative spark to every project I join.
                     </p>
+                    <p>
+                        Git staging commit made. Just a test, folks.
+                    </p>
                 </div>
             </div>
         </section>
